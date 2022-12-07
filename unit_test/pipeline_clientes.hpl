@@ -117,7 +117,7 @@
       <condition>
         <negated>N</negated>
         <leftvalue>pais</leftvalue>
-        <function>=</function>
+        <function>&lt;></function>
         <rightvalue/>
         <value>
           <name>constant</name>
@@ -132,7 +132,7 @@
     </compare>
     <attributes/>
     <GUI>
-      <xloc>368</xloc>
+      <xloc>448</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -155,7 +155,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>544</xloc>
+      <xloc>576</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -186,7 +186,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>864</xloc>
+      <xloc>800</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -220,7 +220,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>1040</xloc>
+      <xloc>944</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -235,7 +235,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PROJECT_HOME}/datasets/customers.csv</filename>
+    <filename>${PROJECT_HOME}/customers.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -251,8 +251,8 @@
     <fields>
       <field>
         <name>id</name>
-        <type>Integer</type>
-        <format>#</format>
+        <type>String</type>
+        <format/>
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
@@ -273,8 +273,8 @@
       </field>
       <field>
         <name>cep</name>
-        <type>Integer</type>
-        <format>#</format>
+        <type>String</type>
+        <format/>
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
@@ -318,7 +318,7 @@
       <field>
         <name>data_nascimento</name>
         <type>Date</type>
-        <format>dd/MM/yyyy</format>
+        <format>yyyy/MM/dd</format>
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
@@ -329,7 +329,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>192</xloc>
+      <xloc>336</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>
@@ -358,7 +358,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PROJECT_HOME}/datasets/age_avg_state</name>
+      <name>${PROJECT_HOME}/age_avg_state</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -402,7 +402,7 @@
     </fields>
     <attributes/>
     <GUI>
-      <xloc>1232</xloc>
+      <xloc>1088</xloc>
       <yloc>80</yloc>
     </GUI>
   </transform>

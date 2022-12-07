@@ -1,7 +1,7 @@
 id,nome,cep,cidade,uf,pais,data_nascimento
-1,Marcio Junior Vieira,80050240,Curitiba,PR,BRA,01/03/1979
-2,Matt Casters,80050240,Curitiba,PR,BRA,01/03/1977
-3,Linus Torvalds,88095700,Florianopolis,SC,BRA,28/12/1969
-4,Andrew Stuart Tanenbaum,90840440,Porto Alegre,RS,BRA,16/03/1964
-5,Bill Gates,0000000,Seattle,WA,EUA,28/10/1955
-6,Yara Senger,90840440,Porto Alegre,RS,BRA,16/03/1980
+1,Marcio Junior Vieira,80050240,Curitiba,PR,BRA,1979/03/01
+2,Matt Casters,80050240,Curitiba,PR,BRA,1977/03/01
+3,Linus Torvalds,88095700,Florianopolis,SC,BRA,1969/12/01
+4,Andrew Stuart Tanenbaum,90840440,Porto Alegre,RS,BRA,1964/03/16
+5,Bill Gates,0000000,Seattle,WA,EUA,1955/10/28
+6,Yara Senger,90840440,Porto Alegre,RS,BRA,1980/03/16
