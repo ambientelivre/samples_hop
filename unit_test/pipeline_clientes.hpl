@@ -117,7 +117,7 @@
       <condition>
         <negated>N</negated>
         <leftvalue>pais</leftvalue>
-        <function>&lt;></function>
+        <function>=</function>
         <rightvalue/>
         <value>
           <name>constant</name>
