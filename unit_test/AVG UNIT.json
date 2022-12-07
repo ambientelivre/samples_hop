@@ -1,0 +1,77 @@
+{
+  "variableValues": [],
+  "database_replacements": [],
+  "autoOpening": true,
+  "basePath": "",
+  "golden_data_sets": [
+    {
+      "field_mappings": [
+        {
+          "transform_field": "uf",
+          "data_set_field": "uf"
+        },
+        {
+          "transform_field": "idade",
+          "data_set_field": "idade"
+        }
+      ],
+      "field_order": [
+        "uf",
+        "idade"
+      ],
+      "transform_name": "Write AVG State",
+      "data_set_name": "data-set-avg"
+    }
+  ],
+  "input_data_sets": [
+    {
+      "field_mappings": [
+        {
+          "transform_field": "id",
+          "data_set_field": "id"
+        },
+        {
+          "transform_field": "nome",
+          "data_set_field": "nome"
+        },
+        {
+          "transform_field": "cep",
+          "data_set_field": "cep"
+        },
+        {
+          "transform_field": "cidade",
+          "data_set_field": "cidade"
+        },
+        {
+          "transform_field": "uf",
+          "data_set_field": "uf"
+        },
+        {
+          "transform_field": "pais",
+          "data_set_field": "pais"
+        },
+        {
+          "transform_field": "data_nascimento",
+          "data_set_field": "data_nascimento"
+        }
+      ],
+      "field_order": [
+        "id",
+        "nome",
+        "cep",
+        "cidade",
+        "uf",
+        "pais",
+        "data_nascimento"
+      ],
+      "transform_name": "Read CSV",
+      "data_set_name": "data-set-customers"
+    }
+  ],
+  "name": "AVG UNIT",
+  "description": "",
+  "trans_test_tweaks": [],
+  "persist_filename": "",
+  "pipeline_filename": "./pipeline_clientes.hpl",
+  "test_type": "UNIT_TEST"
+}
