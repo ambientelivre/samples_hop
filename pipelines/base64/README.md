@@ -13,3 +13,11 @@ When a word contains accent or special character, the calculator broken the word
 
 
 We have created four optional javascript codes. If you are facing the same issue, you can test the pipeline ["decodes64.hpl"](pipelines/base64/decodes64.hpl) and choise the option that works best for you.
+
+
+## Requirements
+Apache Hop 2.4 or+
+
+# Developed by Ambiente Livre
+https://www.ambientelivre.com.br
+<br>developer Miguel Vieira</br>
