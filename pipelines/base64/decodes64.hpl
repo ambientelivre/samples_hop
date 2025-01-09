@@ -108,10 +108,10 @@
       <jsScript>
         <jsScript_type>0</jsScript_type>
         <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>function decode_base64(s) {
+        <jsScript_script>function decode_base64(data) {
     var b=l=0,
     m='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-    return decodeURIComponent(s.replace(/./g, function (v) {
+    return decodeURIComponent(data.replace(/./g, function (v) {
       b=(b&lt;&lt;6)+m.indexOf(v); l+=6;
       return l&lt;8||'='==v?'':'%'+(0x100+((b>>>(l-=8))&amp;0xff)).toString(16).slice(-2);
     }));
@@ -152,10 +152,10 @@ data_decoded = decode_base64(data);</jsScript_script>
       <jsScript>
         <jsScript_type>0</jsScript_type>
         <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>function decode_base64(s) {
+        <jsScript_script>function decode_base64(data) {
     var b = l = 0,
         m = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-    return decodeURIComponent(s.replace(/=*$/, '').replace(/./g, function (v) {
+    return decodeURIComponent(data.replace(/=*$/, '').replace(/./g, function (v) {
         b = (b &lt;&lt; 6) + m.indexOf(v); l += 6;
         return l &lt; 8 ? '' : '%' + (0x100 + ((b >>> (l -= 8)) &amp; 0xff)).toString(16).slice(-2);
     }));
