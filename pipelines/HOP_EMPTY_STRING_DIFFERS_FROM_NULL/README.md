@@ -1,4 +1,6 @@
-Este pipeline é um exemplo da variável de ambiente do HOP **HOP_EMPTY_STRING_DIFFERS_FROM_NULL** que muda todas as strings vazias para null.
+Este pipeline é um exemplo da variável de ambiente do HOP:
+
+**HOP_EMPTY_STRING_DIFFERS_FROM_NULL** que muda todas as strings vazias para null.
 
 A descrição do pipeline e um tutorial está disponivel na área de tutoriais do Apache Hop da Ambiente Livre :
 
